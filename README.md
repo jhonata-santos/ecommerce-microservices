@@ -38,13 +38,13 @@ The server will be running on `http://localhost:3000`.
 
 ## API Endpoints
 
-- `GET /products` - 
-- `GET /products/{product_id}` - 
-- `POST /admin/products` - 
-- `PUT /admin/products/{product_id}` -
-- `PATCH /admin/products/{product_id}` -
-- `DELETE /admin/products/{product_id}` -
-- `DELETE /admin/products/` -
+- `GET /products` - List all products
+- `GET /products/{product_id}` - Show a product
+- `POST /admin/products` - Create product
+- `PUT /admin/products/{product_id}` - Update product
+- `PATCH /admin/products/{product_id}` - Update partial product
+- `DELETE /admin/products/{product_id}` - Delete a product
+- `DELETE /admin/products/` - Delete all products
 
 ## Contributing
 
