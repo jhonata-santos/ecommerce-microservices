@@ -1,0 +1,33 @@
+{
+  "name": "studies-ecommerce-microservices",
+  "version": "1.0.0",
+  "description": "REST API built with Node.js and Express",
+  "author": "Jhonata Santos",
+  "email": "jhonatafrsantos@gmail.com",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api",
+    "microservices"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/express-rate-limit": "^5.1.3",
+    "express-rate-limit": "^7.5.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.9.2"
+  }
+}
