@@ -1,4 +1,4 @@
-# My Node API
+# ECOMMERCE MICROSERVICES API REST
 
 This is a simple REST API built with Node.js and Express.
 
@@ -14,20 +14,18 @@ This is a simple REST API built with Node.js and Express.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/my-node-api.git
+   git clone https://github.com/jhonata-santos/ecommerce-microservices.git
    ```
-BEESDTC-T9389)
+
 2. Navigate to the project directory:
    ```
-   cd my-node-api
+   cd ecommerce-microservices
    ```
 
 3. Install the dependencies:
    ```
    npm install
    ```
-
-4. Create a `.env` file in the root directory and add your environment variables.
 
 ## Usage
 
@@ -40,8 +38,13 @@ The server will be running on `http://localhost:3000`.
 
 ## API Endpoints
 
-- `GET /items` - Retrieve a list of items.
-- `POST /items` - Create a new item.
+- `GET /products` - 
+- `GET /products/{product_id}` - 
+- `POST /admin/products` - 
+- `PUT /admin/products/{product_id}` -
+- `PATCH /admin/products/{product_id}` -
+- `DELETE /admin/products/{product_id}` -
+- `DELETE /admin/products/` -
 
 ## Contributing
 
@@ -51,12 +54,13 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 This project is licensed under the MIT License.
 
-
-
-
 ## Aditional informations 
 
 Middlewares:
 - Content type validation
 - Request limits
 - Request logs
+
+Good practices:
+- Eslint
+- Prettier
